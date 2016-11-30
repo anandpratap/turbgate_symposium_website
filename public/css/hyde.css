@@ -193,9 +193,13 @@ a.sidebar-nav-item:focus {
   color: #f8f8f8;
 }
 
+.theme-base-umich h1, h2, h3, h4{
+  color: #00274c;
+}
+
 .theme-base-umich .content a,
 .theme-base-umich .related-posts li a:hover {
-  color: #00274c;
+  color: #0d57aa;
 }
 
 

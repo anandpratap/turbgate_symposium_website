@@ -7,11 +7,10 @@ url: http://turbgate.engin.umich.edu/symposium
 markdown: redcarpet
 highlighter: pygments
 logo: false
-paginate: 15
 baseurl: /symposium/
 domain_name: 'http://turbgate.engin.umich.edu'
 google_analytics: 'UA-XXXXXXXX-X'
-gems: [jekyll-paginate,jekyll/scholar]
+gems: []
 
 # Details for the RSS feed generator
 permalink: pretty
@@ -20,28 +19,3 @@ permalink: pretty
 author:
   name: 'CASLAB'
   url: 'http://umich.edu/~caslab'
-  
-scholar:
-  style: apa
-  locale: en
-
-  sort_by: none
-  order: descending
-  bibliography_list_tag: ol
-
-  source: _bibliography
-  bibliography: references.bib
-  bibliography_template: bibtex
-
-  replace_strings: true
-  join_strings: true
-
-  use_raw_bibtex_entry: true
-  bibtex_filters:
-  - superscript
-  - latex
-
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
-  query: "@*"
